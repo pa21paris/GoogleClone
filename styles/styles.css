@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: rgb(32, 33, 36);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: flex-end;
+    height: 60px;
+    padding: 6px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.nav_ul_text{
+    display: flex;
+    align-items: center;
+    height: 24px;
+    margin-right: 2px;
+    padding-bottom: 1px;
+}
+.nav_ul_text li{
+    margin-right: 15px;
+}
+
+.googleappsicon{
+    width: 40px;
+    height: 40px;
+    background-image: url('https://williams44t.github.io/google-homepage/images/apps-icon.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+}
+
+.profileicon_box{
+    margin-right: 8px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    padding:4px;
+}
+
+.profileicon{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://lh3.googleusercontent.com/ogw/ADea4I5uM13SHIq02_xWdjg4WoGE4kyToL5SvBEEamnY=s32-c-mo');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+main .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11px;
+}
+
+.googleLogo{
+    width: fit-content;
+}
+
+.barrabuscar{
+    margin-top: 25.5px;
+    width: 584px;
+    height: 46px;
+    border: #5f6368 1px solid;
+    border-radius: 25px;
+}
