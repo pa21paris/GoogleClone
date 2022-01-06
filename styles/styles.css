@@ -114,3 +114,17 @@ main .content{
 .mic{
     height: 45.38%;
 }
+
+.botones button{
+    letter-spacing: .1px;
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: #e8eaed;
+    border-radius: 4px;
+    padding-inline: 16px;
+    text-align: center;
+    margin: 29px 4px;
+    font-size: 1.4rem;
+    height: 36px;
+    min-width: 54px;
+}
