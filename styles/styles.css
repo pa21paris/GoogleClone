@@ -85,4 +85,32 @@ main .content{
     height: 46px;
     border: #5f6368 1px solid;
     border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_lupa{
+    height: 100%;
+    width: 20px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lupa{
+    height: 43%;
+}
+
+.container_mic{
+    height: 100%;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.mic{
+    height: 45.38%;
 }
