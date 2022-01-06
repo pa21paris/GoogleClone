@@ -37,9 +37,28 @@ nav ul{
     margin-right: 15px;
 }
 
-.googleappsicon{
+.nav_ul_text li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.googleappicon_container{
+    margin-left: 2px;
     width: 40px;
     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.googleappicon_container:hover{
+    background-color: #313134;
+}
+
+.googleappsicon{
+    width: 24px;
+    height: 24px;
     background-image: url('https://williams44t.github.io/google-homepage/images/apps-icon.webp');
     background-position: center;
     background-repeat: no-repeat;
@@ -48,15 +67,20 @@ nav ul{
 
 .profileicon_box{
     margin-right: 8px;
-    margin-left: 10px;
+    margin-left: 8px;
     width: 40px;
     height: 40px;
     padding:4px;
+    border-radius: 50%;
+}
+
+.profileicon_box:hover{
+    background-color: #313134;
 }
 
 .profileicon{
-    width: 100%;
-    height: 100%;
+    width: 32px;
+    height: 32px;
     background-image: url('https://lh3.googleusercontent.com/ogw/ADea4I5uM13SHIq02_xWdjg4WoGE4kyToL5SvBEEamnY=s32-c-mo');
     background-position: center;
     background-repeat: no-repeat;
@@ -87,6 +111,11 @@ main .content{
     border-radius: 25px;
     display: flex;
     justify-content: space-between;
+}
+
+.barrabuscar:hover{
+    background-color: #303134;
+    border-color: #303134;
 }
 
 .container_lupa{
@@ -127,4 +156,24 @@ main .content{
     font-size: 1.4rem;
     height: 36px;
     min-width: 54px;
+}
+
+.botones button:hover{
+    border: 1px solid #5f6368;
+    cursor: pointer;
+}
+
+.English{
+    color:#bdc1c6;
+    font-size: small;
+}
+
+.English a{
+    margin-left: 3px;
+    text-decoration: none;
+    color: #8ab4f8;
+}
+
+.English a:hover{
+    text-decoration: underline;
 }
