@@ -97,6 +97,7 @@ main .content{
     flex-direction: column;
     align-items: center;
     padding: 11px;
+    height: 76.7vh;
 }
 
 .googleLogo{
@@ -176,4 +177,38 @@ main .content{
 
 .English a:hover{
     text-decoration: underline;
+}
+
+.pais{
+    font-size: 1.5rem;
+    color: #9aa0a6;
+    width: 100%;
+    background-color: #171717;
+    padding: 15px 30px;
+    border-bottom: 1px solid #212327;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    color: #9aa0a6;
+    width: 100%;
+    background-color: #171717;
+    height: calc(100vh - 76.7vh - 48px - 1px - 60px);
+    padding-inline: 35.2px;
+    padding-top: 1px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+}
+
+.about p{
+    margin-right: 30px;
+}
+
+.prefs p{
+    margin-left: 30px;
 }
